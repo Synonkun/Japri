@@ -1,0 +1,75 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
+<style type="text/css">
+body{
+background-size: cover;
+background-attachment: fixed;
+}
+h1{
+font-size: 70px;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #D51E70;
+}
+legend {
+background-color: #1F1A3A;
+margin: 15px;
+font-family: Neucha;
+float: left;
+border-color: black;
+border-radius: 5px;
+font-size:25px;
+font-color:Springgreen;
+}
+
+fieldset{ 
+margin-bottom: 50%;
+max-width: 50%;
+max-height: 50%;
+background-color: #D51E70;
+border-color: white;
+border-width: 6px;
+border-radius: 10px;
+}
+input{
+border-color:black;
+border-radius:5px;
+margin: 20px auto;
+padding: 5px 5px;
+}
+.text{
+font-family: Baloo;
+font-size: 30px;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color:black;
+}
+.text2{
+font-family: Baloo;
+font-size: 20px;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color:black;
+}
+</style>
+<title>JAPRI</title>
+</head>
+<body>
+<body bgcolor="#1F1A3A">
+<center><h1><font face="Baloo" color="white"><u>JAPRI GAN</u></font></h1></center>
+<center>
+<form action="japri.php" method="post">
+<fieldset>
+<legend><b><font color="White">&copy Muhidayat</legend><br><br><br>
+<center>
+<span class="text"><font color="Springgreen">
+Nama : </span><input type="text" name="pengirim" required=""><br>
+<span class="text">
+Nomer : </span><input type="text" name="nomer" required="" placeholder=" +6281xxxxxxxx"><br>
+<span class="text">
+Pesan : </span><input type="text" name="pesan" placeholder="You Just an Illusion" maxlength="20" required=""></font></center>
+<span class="text2">* Max 20 huruf * </span><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+<br>
+</fieldset>
